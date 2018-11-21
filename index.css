@@ -1,0 +1,22 @@
+.active {
+  opacity: 1;
+  width: auto;
+}
+
+img {
+  transition: all 1.5s;
+  opacity: 0;
+  width: 0;
+}
+
+.nav-circle {
+  cursor: pointer;
+  border: 1px solid #bbb;
+  border-radius: 100%;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+.nav-circle.active {
+  background: black;
+}
